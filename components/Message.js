@@ -29,8 +29,8 @@ function Message({ message }) {
         <p>{message.get("message")}</p>
       </div>
       <TimeAgo
-        classsName={`text-[10px] italic text-gray-400 ${
-          isUserMessage && "order-first pr-1"
+        className={`text-[10px] italic text-gray-400 ${
+          isUserMessage && "order-first  pr-1"
         }`}
         datetime={message.createdAt}
       />
